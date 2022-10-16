@@ -16,5 +16,8 @@
     "gulp-less": "^3.0.5",
     "gulp-postcss": "^6.1.0",
     "autoprefixer": "^6.3.3"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.10"
   }
 }
