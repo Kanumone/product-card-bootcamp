@@ -88,16 +88,21 @@
   border: none;
 }
 
-.product-info__quantity > div {
+.product-info__quantity > input {
+  outline: none;
+  border: none;
   width: 50%;
   background-color: #f4f4f4;
   border-left: 2px solid #c4c3c3;
   border-right: 2px solid #c4c3c3;
   font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 .product-info__buttons {
